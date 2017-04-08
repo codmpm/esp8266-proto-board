@@ -1649,7 +1649,7 @@ design rules under a new name.</description>
 <attribute name="MF" value="" x="20.828" y="3.81" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="176432" x="20.828" y="3.81" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="36M3542" x="20.828" y="3.81" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="23.241" y="8.509" size="1.016" layer="26" rot="R180"/>
+<attribute name="VALUE" x="23.241" y="8.509" size="1.016" layer="25" rot="R180"/>
 </element>
 <element name="S2" library="switch-omron" package="B3F-10XX" value="RESET" x="8.128" y="3.81" smashed="yes" rot="R180">
 <attribute name="MPN" value="B3F-1000" x="8.128" y="3.81" size="1.778" layer="27" rot="R180" display="off"/>

@@ -2,4 +2,5 @@
 *.s#*
 *.lck
 *.log
+.DS_Store
 

@@ -14,7 +14,7 @@ Inside the folders you'll find the Eagle schematics and board files.
 ## Get it working...
 You can simply solder some male headers and an ESP-12(E/F/Q), ESP-07 or ESP-14 on top of the board and are ready to go. 
 
-The better way will be to at least solder some 10kΩ resistors (`R1-R5`) to have the needed pull-ups/pull-downs to get the ESP working. Obviously it is also a good idea to solder the two push buttons so you have the reset and flash functionality. Then power it up with 3.3 Volts and you are good to go.
+The better way will be to at least solder some `10kΩ` resistors (`R1-R5`) to have the needed pull-ups/pull-downs to get the ESP working. Obviously it is also a good idea to solder the two push buttons so you have the reset and flash functionality. Then power it up with 3.3 Volts and you are good to go.
 
 The buttons are the very common 6x6mm variant which goes by `switch-omron`. In Germany you can source the from [Reichelt](https://www.reichelt.de/Kurzhubtaster/TASTER-9302/3/index.html?ACTION=3&LA=2&ARTICLE=44579&GROUPID=7587&artnr=TASTER+9302&SEARCH=%252A) for example. But every electronics shop should have them in stock.
 

@@ -26,7 +26,7 @@ Optionally you can solder a [LDO](https://en.wikipedia.org/wiki/Low-dropout_regu
 
 You'll need 5 x SMD 0805 10kΩ resistors (`R1-R5`) and the two push-buttons. The 0805 resistor should be available from your prefered electronic store.
 
-If you want to use the LDO you need the [AP2210K](https://www.diodes.com/assets/Datasheets/AP2210.pdf), a SOT-23-5 LDO which can be powered with up to 13.2 Volts and only needs two capacitors (`C1/C2`) to run smooth. `C1` is `1µF`, `C2` is `2.2µF` in a 0805 package. It delivers up to 300mA which is fairly enough to power the ESP8266 - you have some room for periphals ;-)
+If you want to use the LDO you need the [AP2210K](https://www.diodes.com/assets/Datasheets/AP2210.pdf), a `SOT-23-5` LDO which can be powered with up to 13.2 Volts and only needs two capacitors (`C1/C2`) to run smooth. `C1` is `1µF`, `C2` is `2.2µF` in a 0805 package. It delivers up to 300mA which is fairly enough to power the ESP8266 - you have some room for periphals ;-)
 
 You can use any other `SOT-32-5` LDO which supplies 3.3 Volts with at least 120-150mA, is satisfied with two capacitors and has the same pinout.
 

@@ -6169,8 +6169,8 @@ Source: AVX .. aphvc.pdf</description>
 <pin name="GPIO15" x="17.78" y="-10.16" length="middle" rot="R180"/>
 <pin name="GPIO2" x="17.78" y="-7.62" length="middle" rot="R180"/>
 <pin name="GPIO0" x="17.78" y="-5.08" length="middle" rot="R180"/>
-<pin name="GPIO5" x="17.78" y="-2.54" length="middle" rot="R180"/>
-<pin name="GPIO4" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="GPIO4" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="GPIO5" x="17.78" y="0" length="middle" rot="R180"/>
 <pin name="RXD" x="17.78" y="2.54" length="middle" direction="in" rot="R180"/>
 <pin name="TXD" x="17.78" y="5.08" length="middle" direction="out" rot="R180"/>
 <text x="0" y="0" size="1.778" layer="94" font="vector" ratio="12" rot="R90" align="center">ESP12</text>
@@ -6211,8 +6211,8 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="GPIO15" pad="10"/>
 <connect gate="G$1" pin="GPIO16" pad="4"/>
 <connect gate="G$1" pin="GPIO2" pad="11"/>
-<connect gate="G$1" pin="GPIO4" pad="14"/>
-<connect gate="G$1" pin="GPIO5" pad="13"/>
+<connect gate="G$1" pin="GPIO4" pad="13"/>
+<connect gate="G$1" pin="GPIO5" pad="14"/>
 <connect gate="G$1" pin="RESET" pad="1"/>
 <connect gate="G$1" pin="RXD" pad="15"/>
 <connect gate="G$1" pin="TXD" pad="16"/>
@@ -6372,16 +6372,16 @@ With round pins</description>
 <pinref part="JP2" gate="G$1" pin="7"/>
 </segment>
 </net>
-<net name="GPIO4" class="0">
+<net name="GPIO5" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="GPIO4"/>
+<pinref part="U1" gate="G$1" pin="GPIO5"/>
 <pinref part="JP1" gate="G$1" pin="3"/>
 <wire x1="104.14" y1="55.88" x2="129.54" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="GPIO5" class="0">
+<net name="GPIO4" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="GPIO5"/>
+<pinref part="U1" gate="G$1" pin="GPIO4"/>
 <pinref part="JP1" gate="G$1" pin="4"/>
 <wire x1="104.14" y1="53.34" x2="129.54" y2="53.34" width="0.1524" layer="91"/>
 </segment>

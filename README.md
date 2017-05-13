@@ -30,7 +30,7 @@ If you want to use the LDO you need the [AP2210K](https://www.diodes.com/assets/
 
 You can use any other `SOT-32-5` LDO which supplies 3.3 Volts with at least 120-150mA, is satisfied with two capacitors and has the same pinout.
 
-The boards can be ordered from [OSH Park](https://oshpark.com/shared_projects/uqfHarcP)
+The boards can be ordered from [OSH Park](https://oshpark.com/shared_projects/u6mogmdg)
 
 ![oshpark logo](https://oshpark.com/assets/badge-5b7ec47045b78aef6eb9d83b3bac6b1920de805e9a0c227658eac6e19a045b9c.png)
 
